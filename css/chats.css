@@ -1,0 +1,26 @@
+.user-conmponent_icons{
+    display: inline-block;
+    margin-left: 1300px;
+    margin-bottom: 30px;
+    
+}
+
+
+.user-component_icon{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    /* position: absolute; */
+    left: 15px;
+    bottom: 15px;
+    margin-top: 7px;
+}
+.user-component_time{
+   color: rgba(0, 0, 0, 0.3);
+}

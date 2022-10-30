@@ -1,0 +1,40 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--horizontal-space);
+    margin-bottom:15px;
+}
+.screen-header_title{
+    font-size: 32px;
+    font-weight: 600;
+   
+}
+.screen-header_icons span{
+    margin-left: 30px;
+}
+
+@keyframes rotatecog{
+    form{
+        transform: none;
+    }
+    to{
+        transform: rotatez(360deg);
+    }
+}
+
+.screen-header_icons .fa-cog:hover{
+    animation:rotatecog 1s linear infinite ;
+}
+
+@keyframes scaleSearch{
+    from{
+        transform: none;
+    }
+    to{
+        transform: scale(1.3,1.3);
+    }
+}
+
+.screen-header_icons .fa-search:hover{
+    animation: scaleSearch 1s ease-in-out forwards;
+}

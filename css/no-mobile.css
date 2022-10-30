@@ -1,0 +1,22 @@
+#no-mobile{
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    /* 화면높이 만큼 */
+    width: 100vw;
+    /* 화면넓이만큼 */
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    font-size: 32px;
+}
+
+@media screen and (max-width:300px){
+    #no-mobile{
+    display: none;
+    }
+    /* 화면이 최대 645까지이면 display:none 하라는 것이고, 
+        화면이 645보다 크면 display:flex가 될것이다. */
+}

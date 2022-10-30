@@ -1,0 +1,180 @@
+
+
+.recommanded-friends{
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+.recommanded-friends_title{
+    font-size: 14px;
+    color: var(--color);
+}
+
+.recommanded-friends span{
+    margin: 100px 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color);
+}
+.open-chat_header{
+    display: flex;
+    justify-content: space-between;
+    color:var(--color);
+    margin-bottom: 25px;
+
+}
+.open-chat_header span{
+    opacity: 0.6;
+}
+.open-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.open-post_title{
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+.open-post_hashtag{
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+.open-post_members{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+.open-post_members img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-post_member-count{
+    opacity: 0.5;
+    font-size: 14px;
+}
+.open-post_member-status{
+    color: #ffb0e0;
+}
+
+
+.open-post_members .divider{
+    width: 1px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: var(--color);
+}
+.open-post_photo{
+    position: relative;
+}
+
+.open-post_photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+.open-post_heart-column{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+
+}
+.open-post_heart-column span{
+    margin-left: 3px;
+}
+
+@keyframes heartBeat{
+    0%{
+        color: white;
+        transform: none;
+        
+        
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+    }
+}
+.open-post_heart-column:hover i{
+    will-change: transform;
+    /* will-change는 브라우저가 transform을 실행할때
+    확실하게 돕게해주는 것.
+    그래서 쓸데없는 행위(예를 들면 shaking)를 막는다. 
+    다시말해> 그래픽카드를 이용해서 애니메이션을 가속화한다.*/
+    animation: heartBeat 1s linear infinite;
+    
+}
+/* .main-screen .icon-row_icon:last-child i:hover{
+ 
+   animation: scaleAnimation 2s ease-in-out forwards;
+} */
+
+  @keyframes showAnimation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
+  
+  .main-screen .icon-row_icon:last-child .fa-envelope{
+    animation: showAnimation 2s ease-in-out infinite;
+}
+.main-screen .icon-row_icon:last-child .fa-envelope:hover{
+    animation:none;
+    pointer-events: painted;
+    color: blue;
+}
+
+
+
+
+@keyframes colorchange{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        color: tomato;
+        transform: rotate(360deg),scale(1.5);
+    }
+}
+
+
+.main-screen .icon-row_icon:nth-child(3):hover{
+    animation: colorchange 2s ease-in-out infinite;
+    transition: 2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

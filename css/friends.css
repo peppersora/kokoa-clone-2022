@@ -1,0 +1,62 @@
+#friends-display-link{
+    text-align: center;
+    display: block;
+    background-color: #FAFAFA;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+friends-display-link i{
+    color: rgba(0,0,0,0.2);
+}
+
+.friends_screen{
+    padding: 0px var(--horizontal-space);
+}
+
+.friends_screen_channel{
+    margin-top: 25px;
+    border-top: var(--main-border);
+    padding-top: 15px;
+
+
+}
+.friends-screen_channel-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0,0,0.5);
+}
+@keyframes hidesplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen{
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation:hidesplashScreen 0.3s ease-in forwards;
+    /* 0.3초 동안 유지된다 */
+    animation-delay: 2s; 
+    /* 애니메이션이 바로 시작하지 않고 2초동안 딜레이되게 만든다. */
+}
+
+
+
+
+
+
