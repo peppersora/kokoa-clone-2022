@@ -15,3 +15,9 @@
 .settings_setting_column{
     opacity: 0.7;
 }
+
+.settings_setting_column:first-child:hover{
+    color: black;
+    border: 8px;
+  
+}
