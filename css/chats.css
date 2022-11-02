@@ -6,6 +6,7 @@
 }
 
 
+
 .user-component_icon{
     background-color: tomato;
     width: 30px;
@@ -16,11 +17,13 @@
     align-items: center;
     color: white;
     font-weight: 600;
-    /* position: absolute; */
+   /* position: relative;  */
     left: 15px;
     bottom: 15px;
     margin-top: 7px;
 }
 .user-component_time{
    color: rgba(0, 0, 0, 0.3);
+   display: block;
+   
 }
