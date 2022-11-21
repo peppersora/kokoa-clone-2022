@@ -5,13 +5,9 @@
 .user-component,
 .user-component_column:first-child{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 .user-component_avatar{
-   
-  
     width: 70px;
     height: 70px;
     border-radius: 30px;
@@ -44,9 +40,42 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: center;
     
 }
 .user-component_time{
     margin-bottom: 10px;
     display: block;
+}
+/* 추가 */
+
+.user-component-text-image{
+    display: flex;
+    background-color:#ff89bb;
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-component-text-image>img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.user-component-text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    align-items: center;
+}
+.user-component-text-message{
+    display: flex;
+    margin-left: 20px;
+    color: black;
+    font-weight: 560;
 }

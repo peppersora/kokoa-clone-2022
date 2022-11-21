@@ -22,3 +22,34 @@
 .icon-row_icon span{
     margin-top: 15px;
 }
+/* 추가 */
+.icon-row_profile{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+.icon-row_profileName{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-right: 20px;
+    align-items: center;
+}
+.icon-row_profileName i{
+    font-size: 35px;
+
+}
+.icon-row_profileName span{
+    margin-top: 15px;
+    
+}
+.icon-row_profileName-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ABC1D1;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+
+}

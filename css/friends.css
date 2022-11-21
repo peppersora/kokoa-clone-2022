@@ -50,9 +50,15 @@ friends-display-link i{
     align-items: center;
     font-size: 132px;
     animation:hidesplashScreen 0.3s ease-in forwards;
-    /* 0.3초 동안 유지된다 */
     animation-delay: 2s; 
-    /* 애니메이션이 바로 시작하지 않고 2초동안 딜레이되게 만든다. */
+    
+}
+/* 추가 */
+.icon-row_profileName-image>img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
 }
 
 
