@@ -1,3 +1,3 @@
-    #Kokoa clone 2022 Update
 
-Now, Let's start cording!!
+# kokoa-clone-2022
+#### 카카오톡의 UI를 클론코딩하였습니다.
