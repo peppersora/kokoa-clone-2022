@@ -2,7 +2,8 @@
 
 # Kokoa-clone-2022
 
-[노마드코더의 코코아톡 클론코딩](https://nomadcoders.co/kokoa-clone/lobby)을 공부하면서 추가로 응용했습니다.
+[노마드코더의 코코아톡 클론코딩:pencil:](https://nomadcoders.co/kokoa-clone/lobby)을 공부하면서 추가로 응용했습니다.
+<br>
 HTML, CSS로 작업했습니다.
 
 :point_right: (https://peppersora.github.io/kokoa-clone-2022/) 
